@@ -58,8 +58,11 @@
         height: 40px;
         width: 40px
     }
-    .e-panel .e-panel-content .small .card{
+    .e-panel .e-panel-content .small.card{
         text-align: left;
+    }
+    .e-panel .e-panel-content .small.card .left{
+    margin-top: 5px;
     }
     .e-panel .e-panel-content .small .e-icons.profile,.e-panel .e-panel-content .small .e-icons.settings,.e-panel .e-panel-content .small .e-icons.views {
         font-size: 20px;
@@ -204,8 +207,8 @@
     .right{
         display: inline-block;
         float: left;
-        height: 90px;
-        width: 90px;        
+        height: 8rem;
+        width: 8rem;        
         text-align: center;
         border-radius: 50%;
         background: #f5f5f5;
@@ -215,8 +218,8 @@
 }
 
     .e-icons.profile, .e-icons.settings, .e-icons.views{
-        font-size:60px;
-        line-height: 90px;
+        font-size:4rem;
+        line-height: 8rem;
     }
 
     .card-content.number {

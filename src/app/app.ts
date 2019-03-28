@@ -7,7 +7,7 @@ import { CircularGauge } from '@syncfusion/ej2-circulargauge';
 import { gauge1, gauge2, gauge3 } from './gauge-component';
 import { Grid } from '@syncfusion/ej2-grids';
 import { gridComponent } from './grid-component';// importing grid component model
-import { Maps} from '@syncfusion/ej2-maps'; 
+import { Maps } from '@syncfusion/ej2-maps';
 import { mapsComponent } from './map-component'; // importing map component initialization
 import { Chart, Legend, Tooltip, ColumnSeries, Category, DataLabel } from '@syncfusion/ej2-charts';
 Chart.Inject(ColumnSeries, DataLabel, Category, Legend, Tooltip);
@@ -80,6 +80,6 @@ function refreshControls(args: ResizeEventArgs): void {
 function refreshStopControls(args: ResizeEventArgs): void {
     if (args.element && args.element.querySelector(".card")) {
         let element: Element = args.element.querySelector(".card");
-        (args.element.offsetWidth < 350) ? element.classList.add('small') : element.classList.contains('small') && element.classList.remove('small');
+        (args.element.offsetWidth < 200) ? element.classList.add('small') : element.classList.contains('small') && element.classList.remove('small');
     }
 }

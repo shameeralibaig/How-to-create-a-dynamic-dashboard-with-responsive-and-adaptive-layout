@@ -147,6 +147,6 @@ export function gridComponent(): GridModel {
     girdModel.dataBound = startTimer;
     girdModel.actionComplete = complete;
     girdModel.allowPaging = true;
-    girdModel.pageSettings = {pageSize:6};
+    girdModel.pageSettings = {pageSize:4};
     return girdModel;
 }
